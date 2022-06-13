@@ -14,7 +14,7 @@ The basic syntax is as follows:
 Permissions-Policy: <directive> <allowlist>
 ```
 
-`<directive>` is the function that is enabled for a given `<allowlist>`, which is a list of origins.  The default `<allowlist>` is `'self'`, which allows monetization in the document and in all nested browsing contexts(iframes) in the same origin.  
+`<directive>` is the function enabled for a given `<allowlist>`, which is a list of origins.  The default `<allowlist>` is `'self'`, which allows monetization in the document and in all nested browsing contexts(iframes) of the same origin.  
 
 
 ## Directives
